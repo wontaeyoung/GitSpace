@@ -13,6 +13,8 @@ Github API를 통해 Repository, Follow, Activity와 같은 정보를 받고, �
 # Onwer Feature
 GitSpace의 채팅 기능에 오너십을 가지고 관련 로직과 UI를 개발했습니다.
 
+[Listener 활용 채팅 구현 과정 포스팅](https://velog.io/@wontaeyoung/swiftui3)
+
 <br>
 
 |메세지 보내기|
