@@ -13,9 +13,7 @@ Github API를 통해 Repository, Follow, Activity와 같은 정보를 받고, �
 # Onwer Feature
 GitSpace의 채팅 기능에 오너십을 가지고 관련 로직과 UI를 개발했습니다.
 
-[Listener 활용 채팅 구현 과정 포스팅](https://velog.io/@wontaeyoung/swiftui3)
-
-<br>
+<br><br>
 
 |메세지 보내기|
 |-|
@@ -67,3 +65,18 @@ GitSpace의 채팅 기능에 오너십을 가지고 관련 로직과 UI를 개�
 |<img width="700" alt="읽지 않은 메세지 삭제" src="https://github.com/wontaeyoung/GitSpace/assets/45925685/cd800361-d532-4c9c-b812-c78e985c1bca">|
 - 읽지 않은 메세지를 상대방이 삭제하면, 이에 맞춰서 읽지 않은 메세지 카운트가 감소합니다.
 - 만약 상대방이 삭제한 메세지가 마지막 메세지라면, 그 이전 메세지로 마지막 메세지가 수정됩니다.
+
+<br><br><br>
+
+|커스텀 텍스트 에디터|
+|-|
+|<img width="300" alt="읽지 않은 메세지 삭제" src="https://github.com/wontaeyoung/GitSpace/assets/45925685/ec91ec85-0664-4bdd-9dbf-e43e2c18ebc2">|
+- 커스텀 텍스트에디터를 디자인 시스템으로 구현했습니다.
+- 높이 계산 로직을 통해 최대 5줄 높이까지 동적으로 계산하여 변화합니다.
+- 커스텀하게 된 배경과 구현 과정은 상단 포스팅에서 확인 가능합니다.
+
+<br><br><br>
+
+**관련 포스팅**
+- [Listener 활용 채팅 구현 과정 포스팅](https://velog.io/@wontaeyoung/swiftui3)
+- [동적 높이 커스텀 텍스트에디터 배경 및 구현 과정 포스팅](https://velog.io/@wontaeyoung/swiftui4)
