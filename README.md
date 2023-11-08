@@ -1,19 +1,22 @@
 # Information
+
 PR 및 Issue는 [원본 레포지토리](https://github.com/APPSCHOOL1-REPO/finalproject-gitspace)에서 확인 가능합니다!
 
 <br><br>
 
 # Introduce
-Github API를 통해 Repository, Follow, Activity와 같은 정보를 받고, 사용자가 Starred한 Repository를 클라이언트의 커스텀 태그로 카테고리를 묶어서 관리할 수 있습니다.
+
+GitHub API를 통해 Repository, Follow, Activity와 같은 정보를 받고, 사용자가 Starred한 Repository를 클라이언트의 커스텀 태그로 카테고리를 묶어서 관리할 수 있습니다.
 
 특정 레포지토리의 Contributor에게 노크를 요청할 수 있고, 상대방이 이를 수락하면 채팅을 진행할 수 있습니다.
 
 <br><br>
 
 # Onwer Feature
+
 GitSpace의 채팅 기능에 오너십을 가지고 관련 로직과 UI를 개발했습니다.
 
-<br><br>
+<br>
 
 |메세지 보내기|
 |-|
@@ -83,13 +86,14 @@ GitSpace의 채팅 기능에 오너십을 가지고 관련 로직과 UI를 개�
 
 <br><br>
 
-# - ing
+# -ing
+
 2023.05에 1차 출시 후, 추가 기능 및 보안 업데이트를 진행했습니다.
 
 2023.10부터 GitSpacer Organization을 생성하고 레포지토리 이사 및 이전부터 논의했던 리팩토링을 시작했습니다.
 
 MVVM 적용 시 겪으면서 불편했던 점, 모듈화 필요성, 코드 컨벤션과 같은 문제들에 대해 의견을 나누고, 새롭게 도입할 아키텍처, 라이브러리에 대해 학습 후 팀 내에서 세미나를 진행했습니다.
 
-팀원들과 나눈 의견을 토대로 SwiftUI의 선언형 UI에 적합한 단방향 아키텍처인 TCA를 도입하고, Feature 개발을 모듈화하는 시도를 해보기로 했습니다.
+팀원들과 나눈 의견을 토대로 SwiftUI의 선언형 UI에 적합한 단방향 아키텍처인 TCA를 도입하고, Feature 개발을 모듈화하는 시도를 해보기로 하였습니다.
 
 현재는 주 단위로 회의를 진행하며 도입할 기술들을 학습하고 적용해보는 과정을 진행하고 있습니다.
