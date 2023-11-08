@@ -18,6 +18,23 @@ GitSpace의 채팅 기능에 오너십을 가지고 관련 로직과 UI를 개�
 
 <br>
 
+```plain
+1. SwiftUI와 Firestore를 사용하여 채팅 UI 및 로직 구현
+    - Listener의 데이터 동기화를 이용한 채팅 로직 구현
+    - ScrollViewReader를 이용한 proxy 스크롤링 동작
+    - Life Cycle을 활용하여 상대방이 읽지 않은 메세지 카운터 처리
+2. MVVM을 간소화 한 MVS 적용
+    - Store가 ObservableObject를 채택
+    - Published 래퍼로 프로퍼티 바인딩 관리, 비즈니스 로직을 처리하는 단방향 아키텍처
+3. NSCache를 이용한 이미지 캐싱을 구현하여 이미지 요청 횟수 감소
+4. 메세지 입력 필드로 사용하기 위해 동적으로 높이가 변하는 커스텀 TextEditor 구현
+    - 텍스트 길이, 개행 문자, 행간, 폰트 사이즈를 통해 실시간으로 Height를 계산하여 높이 조절
+```
+
+<br>
+
+## Feature UI
+
 |메세지 보내기|
 |-|
 |<img width="700" alt="메세지 보내기" src="https://github.com/wontaeyoung/GitSpace/assets/45925685/ea1e0953-6b94-47eb-9ed9-245f6f7165d4">|
