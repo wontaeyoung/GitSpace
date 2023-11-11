@@ -2,6 +2,8 @@
 
 PR 및 Issue는 [원본 레포지토리](https://github.com/APPSCHOOL1-REPO/finalproject-gitspace)에서 확인 가능합니다!
 
+[앱스토어 링크](https://apps.apple.com/kr/app/gitspace/id6446034470)
+
 <br><br>
 
 # Introduce
