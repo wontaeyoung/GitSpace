@@ -42,63 +42,72 @@ GitSpace의 채팅 기능에 오너십을 가지고 관련 로직과 UI를 개�
 
 |메세지 보내기|
 |-|
-|<img width="700" alt="메세지 보내기" src="https://github.com/wontaeyoung/GitSpace/assets/45925685/ea1e0953-6b94-47eb-9ed9-245f6f7165d4">|
+|<img width="700" alt="메세지 보내기" src="https://github.com/wontaeyoung/GitSpace/assets/45925685/62a6e123-81f3-4883-9a46-e6a503cd512b">|
 - 메세지 전송 버튼을 누르면 서버에 업로드합니다.
 - 상대방 클라이언트의 Listener가 서버 업데이트를 감지하여 두 클라이언트를 동기화해서 실시간 채팅이 동작합니다.
+
 
 <br><br><br>
 
 |메세지 인터랙션|
 |-|
-|<img width="300" alt="메세지 인터랙션" src="https://github.com/wontaeyoung/GitSpace/assets/45925685/7b9dc19e-5bf8-44ab-b011-729984aa9d96">|
+|<img width="300" alt="메세지 인터랙션" src="https://github.com/wontaeyoung/GitSpace/assets/45925685/55ab6596-8392-4287-b6dc-bdbeca57a1ff">|
 - Long Press 제스처로 메세지 버블에 대한 인터랙션을 할 수 있습니다.
 - 내 메세지에 대해서는 삭제, 상대 메세지에 대해서는 신고 동작을 할 수 있습니다.
+
 
 <br><br><br>
 
 |메세지 삭제|
 |-|
-|<img width="700" alt="메세지 삭제" src="https://github.com/wontaeyoung/GitSpace/assets/45925685/76800fbc-40ce-4628-9783-b9f94a88bfd7">|
+|<img width="700" alt="메세지 삭제" src="https://github.com/wontaeyoung/GitSpace/assets/45925685/289341f0-4dce-4e9a-acdd-15db82015f77">|
 - 삭제 버튼을 누르면 서버에서 해당 메세지를 삭제합니다.
 - 상대방 클라이언트의 Listener가 이를 감지해서 동일한 메세지를 삭제합니다.
+
 
 <br><br><br>
 
 |메세지 읽음 처리|
 |-|
-|<img width="300" alt="메세지 읽음 처리" src="https://github.com/wontaeyoung/GitSpace/assets/45925685/bd54d255-a352-41d8-92bc-222fc84ab667">|
+|<img width="300" alt="메세지 읽음 처리" src="https://github.com/wontaeyoung/GitSpace/assets/45925685/1c29c727-bc56-48d7-81ab-f09a0cb4477a">|
 - 읽지 않은 메세지가 있을 때 채팅방을 입장해서 해당 메세지를 읽으면, 읽지 않은 메세지 카운트가 0으로 초기화됩니다.
+
 
 <br><br><br>
 
 |실시간 메세지 읽음 처리|
 |-|
-|<img width="300" alt="실시간 메세지 읽음 처리" src="https://github.com/wontaeyoung/GitSpace/assets/45925685/5f3e3191-0f11-44f8-9f7b-8cbe91bf6016">|
+|<img width="300" alt="실시간 메세지 읽음 처리" src="https://github.com/wontaeyoung/GitSpace/assets/45925685/f40f7497-ba7a-4d0e-89d5-4041b1501e7b">|
 - 채팅방에 입장한동안 새롭게 받은 메세지는 모두 읽음 처리됩니다.
+
 
 <br><br><br>
 
 |읽지 않은 메세지 시작 위치로 이동|
 |-|
-|<img width="300" alt="읽지 않은 메세지 시작 위치로 이동" src="https://github.com/wontaeyoung/GitSpace/assets/45925685/2c0f2219-b2f8-4b5d-8070-bb6a566448b8">|
+|<img width="300" alt="읽지 않은 메세지 시작 위치로 이동" src="https://github.com/wontaeyoung/GitSpace/assets/45925685/6e4aa499-2f25-4bca-bfa9-03e7c71911d1">|
 - 채팅방 입장 시, 읽지 않은 메세지 중 첫 번째 메세지 위치로 자동 스크롤됩니다.
+![GitSpace_안읽은메세지_스크롤]()
+
 
 <br><br><br>
 
 |읽지 않은 메세지 삭제|
 |-|
-|<img width="700" alt="읽지 않은 메세지 삭제" src="https://github.com/wontaeyoung/GitSpace/assets/45925685/cd800361-d532-4c9c-b812-c78e985c1bca">|
+|<img width="700" alt="읽지 않은 메세지 삭제" src="https://github.com/wontaeyoung/GitSpace/assets/45925685/90b3f067-78f0-48cd-9ae5-482a4ce733f7">|
 - 읽지 않은 메세지를 상대방이 삭제하면, 이에 맞춰서 읽지 않은 메세지 카운트가 감소합니다.
 - 만약 상대방이 삭제한 메세지가 마지막 메세지라면, 그 이전 메세지로 마지막 메세지가 수정됩니다.
+
 
 <br><br><br>
 
 |커스텀 TextEditor|
 |-|
-|<img width="300" alt="읽지 않은 메세지 삭제" src="https://github.com/wontaeyoung/GitSpace/assets/45925685/ec91ec85-0664-4bdd-9dbf-e43e2c18ebc2">|
+|<img width="300" alt="읽지 않은 메세지 삭제" src="https://github.com/wontaeyoung/GitSpace/assets/45925685/3b0e1ae7-9a52-45e4-b2a2-026ca6446a0d">|
 - 커스텀 텍스트에디터를 디자인 시스템으로 구현했습니다.
 - 높이 계산 로직을 통해 최대 5줄 높이까지 동적으로 계산하여 변화합니다.
 - 해당 컴포넌트에 기능을 추가하고 최소 지원버전을 낮춰 [AutoHeightEditor](https://github.com/wontaeyoung/AutoHeightEditor)라는 오픈소스 라이브러리를 공개했습니다.
+
 
 <br><br><br>
 
