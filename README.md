@@ -87,7 +87,6 @@ GitSpace의 채팅 기능에 오너십을 가지고 관련 로직과 UI를 개�
 |-|
 |<img width="300" alt="읽지 않은 메세지 시작 위치로 이동" src="https://github.com/wontaeyoung/GitSpace/assets/45925685/6e4aa499-2f25-4bca-bfa9-03e7c71911d1">|
 - 채팅방 입장 시, 읽지 않은 메세지 중 첫 번째 메세지 위치로 자동 스크롤됩니다.
-![GitSpace_안읽은메세지_스크롤]()
 
 
 <br><br><br>
