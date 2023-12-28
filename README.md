@@ -20,21 +20,12 @@ GitSpace의 채팅 기능에 오너십을 가지고 관련 로직과 UI를 개�
 
 <br>
 
-
-- SwiftUI와 Firestore를 사용하여 채팅 UI 및 로직 구현
-    - Listener의 데이터 동기화를 이용한 채팅 로직 구현
-    - ScrollViewReader를 이용한 proxy 스크롤링 동작
-    - Life Cycle을 활용하여 상대방이 읽지 않은 메세지 카운터 처리
-
-- MVVM을 간소화 한 MVS 적용
-    - Store가 ObservableObject를 채택
-    - Published 래퍼로 프로퍼티 바인딩 관리, 비즈니스 로직을 처리하는 단방향 아키텍처
-
-- NSCache를 이용한 이미지 캐싱을 구현하여 이미지 요청 횟수 감소
-
-- 메세지 입력 필드로 사용하기 위해 동적으로 높이가 변하는 커스텀 TextEditor 구현
-    - 텍스트 길이, 개행 문자, 행간, 폰트 사이즈를 통해 실시간으로 Height를 계산하여 높이 조절
-
+- Git Flow, 코드 컨벤션, 브랜치 전략, PR 및 코드리뷰, 내부 세미나와 같이 팀 프로젝트에서 겪을 수 있는 다양한 경험들을 했습니다.
+- `Design System`을 적용해서 UI 일관성을 유지하고 작성 리소스를 확보하는 방법을 학습했습니다.
+- iOS 최소 지원버전으로 사용할 수 없는 컴포넌트 기능을 직접 구현하여 사용했습니다. - [관련 포스팅](https://velog.io/@wontaeyoung/swiftui4)
+- `Listener`를 사용해서 실시간 채팅 기능을 구현했습니다. 두 클라이언트의 데이터 동기화 및 상호작용 시나리오에 대해 고민해보고 해결할 수 있는 경험이었습니다. - [관련 포스팅](https://velog.io/@wontaeyoung/swiftui3)
+- `ScenePhase`를 사용하여 앱의 Life Cycle을 활용하는 방법을 학습했습니다. - [관련 포스팅](https://velog.io/@wontaeyoung/swiftui7)
+- `ScrollViewReader`로 프로그래밍적으로 화면을 스크롤링 하는 방법을 학습했습니다. - [관련 포스팅](https://velog.io/@wontaeyoung/swiftui2)
 
 <br>
 
